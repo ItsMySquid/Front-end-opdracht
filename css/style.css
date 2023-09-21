@@ -1,0 +1,112 @@
+img {
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+nav {
+    padding: 20px 20px 50px 20px;
+    background-color: #373a3b;
+    border-bottom: 3px solid black;
+}
+
+nav a {
+    padding: 20px;
+    background-color: #373a3b;
+    color: #FFFFFF;
+    border: 3px solid white;
+}
+
+nav a:hover {
+    background-color: #64CCC5;
+    color: black;
+}
+
+
+header {
+    background-color: rgb(179, 217, 250);
+    padding: 30px 100px;
+    border-bottom: 3px solid black;
+}
+
+.product {
+    display: flex;
+    gap: 100px;
+}
+
+header img {
+    width: 500px;
+}
+
+header div a {
+    padding: 10px 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #373a3b;
+    color: #FFFFFF;
+}
+
+header div a:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+main {
+    background-color: #64CCC5;
+}
+
+.omschrijving {
+    background-color: aquamarine;
+    border-bottom: 3px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 100px;
+}
+
+.plus {
+    background-color: #FFFFFF;
+    padding: 20px;
+    flex: 1;
+}
+
+.omsch {
+    flex: 3;
+}
+
+.gere {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0px 150px;
+}
+
+
+footer {
+    background-color: #176B87;
+    padding: 20px;
+}
+
+footer a {
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    background-color: #64CCC5;
+    color: black;
+
+}
+
+h5 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h6 {
+    font-size: 15px;
+    margin: 10px;
+}
