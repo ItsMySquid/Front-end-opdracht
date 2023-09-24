@@ -6,27 +6,32 @@ img {
 
 nav {
     padding: 20px 20px 50px 20px;
-    background-color: #373a3b;
+    background-color: #27374D;
     border-bottom: 3px solid black;
 }
 
 nav a {
-    padding: 20px;
-    background-color: #373a3b;
+    padding: 15px;
+    background-color: #9DB2BF;
     color: #FFFFFF;
-    border: 3px solid white;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
 nav a:hover {
-    background-color: #64CCC5;
+    background-color: #DDE6ED;
     color: black;
 }
 
 
 header {
-    background-color: rgb(179, 217, 250);
+    background-color: #526D82;
     padding: 30px 100px;
     border-bottom: 3px solid black;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 .product {
@@ -42,21 +47,21 @@ header div a {
     padding: 10px 50px;
     border: 3px solid black;
     border-radius: 10px;
-    background-color: #373a3b;
+    background-color: #9DB2BF;
     color: #FFFFFF;
 }
 
 header div a:hover {
-    background-color: #FFFFFF;
+    background-color: #DDE6ED;
     color: black;
 }
 
 main {
-    background-color: #64CCC5;
+    background-color: #9DB2BF;
 }
 
 .omschrijving {
-    background-color: aquamarine;
+    background-color: #7f8f99;
     border-bottom: 3px solid black;
     display: flex;
     justify-content: center;
@@ -82,21 +87,28 @@ main {
     text-align: center;
     padding-bottom: 30px;
     margin: 0px 150px;
+
+}
+
+.gere h6 {
+    font-size: 25px;
+    margin: 10px;
 }
 
 
 footer {
-    background-color: #176B87;
+    background-color: #27374D;
     padding: 20px;
 }
 
 footer a {
-    padding: 20px;
-    color: #FFFFFF;
+    padding: 5px;
+    margin-left: 200px;
+    color: #777c7f;
 }
 
 footer a:hover {
-    background-color: #64CCC5;
+    background-color: #526D82;
     color: black;
 
 }
@@ -104,9 +116,4 @@ footer a:hover {
 h5 {
     font-size: 30px;
     text-align: center;
-}
-
-h6 {
-    font-size: 15px;
-    margin: 10px;
 }
